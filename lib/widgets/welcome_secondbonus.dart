@@ -26,7 +26,7 @@ class WelcomeSecondBonus extends StatelessWidget {
                       style: TextStyle(
                           fontFamily: "Poppins",
                           color: Colors.white,
-                          fontSize: 15,
+                          fontSize: 14,
                           fontWeight: FontWeight.bold),
                     ),
                   ),
@@ -57,8 +57,8 @@ class WelcomeSecondBonus extends StatelessWidget {
             ),
             Positioned(
               child: Container(
-                margin: EdgeInsets.fromLTRB(25.0, 50.0, 150.0, 30.0),
-                height: 120,
+                margin: EdgeInsets.fromLTRB(25.0, 50.0, 100.0, 30.0),
+                height: 140,
                 width: double.infinity,
                 decoration: BoxDecoration(
                   shape: BoxShape.rectangle,
@@ -66,7 +66,7 @@ class WelcomeSecondBonus extends StatelessWidget {
                   color: Colors.white,
                 ),
                 child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Column(
                       children: [
